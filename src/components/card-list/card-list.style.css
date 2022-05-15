@@ -1,0 +1,13 @@
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.app-title {
+  font-family: "Bigelow Rules";
+  font-size: 7rem;
+  color: #0ccac4;
+}
