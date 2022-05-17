@@ -2,6 +2,8 @@ import "./card-list-container.style.css";
 import "./card-list.style.css";
 import CardListItem from "./card-list-item.component";
 
+//funtional component
+
 function CardList({ properties }) {
   return (
     <div className="card-list">
@@ -11,6 +13,8 @@ function CardList({ properties }) {
     </div>
   );
 }
+
+//class component
 
 // class CardList extends Component {
 //   render() {
